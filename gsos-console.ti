@@ -1,0 +1,10 @@
+#
+# GS/OS Console (.console)
+#
+CONSOLE|gsoscon|gsos-console|GSOS Console Driver:\
+	:cl=^L:cd=^K:cb=^C:co#80:cr=^M:cv=^F%+ :bl=^G:do=^J:ho=^Y:\
+	:nd=^\:nl=^J:sr=^V:sf=^W:ae=^N:am:bs:bw:cm=^^%r%+ %+ :li#24:\
+	:ce=^]:eA=^O^[:eo:il=^N:i3=^L:is=^L^N:kd=^J:kl=^H:kr=^U:ku=^K:\
+	:le=^H:ll=^^ 8:mb=^O:md=^O:me=^N:mh=^O:mr=^O:rs=^N:se=^N:so=^O:\
+	:ue=^N:up=^_:us=^O:as=^O^[:bc=^H:r1=^N:r2=^N:r3=^N:\
+	:ms:mi:sf=^J:sr=^_:i1=^N:NP:dn=^J:
