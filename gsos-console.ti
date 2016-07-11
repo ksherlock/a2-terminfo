@@ -48,4 +48,6 @@ gsoscon|gsos-console|GSOS Console Driver:\
 	:r3=^N:\
 	:sf=^J:\
 	:sr=^_:\
-	:i1=^N:
+	:i1=^N:\
+# backspace key
+	:kb=^?:
