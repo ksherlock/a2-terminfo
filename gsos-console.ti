@@ -10,9 +10,12 @@ gsoscon|gsos-console|GSOS Console Driver:\
 	:cr=^M:\
 	:cv=^F%+ :\
 	:bl=^G:\
+# cursor movement - up, down, left, right.
+	:up=^_:\
 	:do=^J:\
-	:ho=^Y:\
+	:le=^H:\
 	:nd=^\:\
+	:ho=^Y:\
 	:nl=^J:\
 	:sr=^V:\
 	:sf=^W:\
@@ -23,11 +26,11 @@ gsoscon|gsos-console|GSOS Console Driver:\
 	:il=^N:\
 	:i3=^L:\
 	:is=^L^N:\
+# arrow keys
 	:kd=^J:\
 	:kl=^H:\
 	:kr=^U:\
 	:ku=^K:\
-	:le=^H:\
 	:ll=^^ 8:\
 	:mb=^O:\
 	:md=^O:\
@@ -38,7 +41,6 @@ gsoscon|gsos-console|GSOS Console Driver:\
 	:se=^N:\
 	:so=^O:\
 	:ue=^N:\
-	:up=^_:\
 	:us=^O:\
 	:as=^O^[:\
 	:bc=^H:\
@@ -47,5 +49,4 @@ gsoscon|gsos-console|GSOS Console Driver:\
 	:r3=^N:\
 	:sf=^J:\
 	:sr=^_:\
-	:i1=^N:\
-	:dn=^J:
+	:i1=^N:
