@@ -23,7 +23,6 @@ gsoscon|gsos-console|GSOS Console Driver:\
 	:cm=^^%r%+ %+ :\
 	:ce=^]:\
 	:eA=^O^[:\
-	:il=^N:\
 	:i3=^L:\
 	:is=^L^N:\
 # arrow keys
