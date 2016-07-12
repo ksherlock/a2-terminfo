@@ -3,7 +3,7 @@
 .PHONY : test
 
 test :
-	tic -c -v5 gsos-console.ti
+	tic -v10 -N -c gsos-console.ti
 
 install :
-	tic gsos-console.ti
+	tic -v10 -N -s gsos-console.ti
