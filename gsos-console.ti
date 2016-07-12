@@ -47,8 +47,6 @@ gsoscon|gsos-console|GSOS Console Driver:\
 	:rs=^N^X:\
 	:is=^R^N^X^B  o7^U\015^L:\
 # ---- scrolling ----
-# set scroll region
-	:cs=^B %+ o%+ :\
 # scroll up 1 line
 	:sf=^J:\
 # scroll down 1 line
