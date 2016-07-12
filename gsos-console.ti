@@ -35,7 +35,6 @@ gsoscon|gsos-console|GSOS Console Driver:\
 	:me=^N:\
 	:mh=^O:\
 	:mr=^O:\
-	:rs=^N:\
 	:se=^N:\
 	:so=^O:\
 	:ue=^N:\
@@ -43,8 +42,9 @@ gsoscon|gsos-console|GSOS Console Driver:\
 # alternate character set (mouse text).
 	:eA=^O^[:\
 	:as=^O^[:\
-	:ae=^N:\
+	:ae=^N^X:\
 # initialize / reset. 80-column, Normal text, disable mousetext, 80x24 textport, consLF/DLE off, clear. 
+	:rs=^N^X:\
 	:is=^R^N^X^B  o7^U\015^L:\
 # ---- scrolling ----
 # set scroll region
