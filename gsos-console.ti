@@ -4,33 +4,32 @@
 gsoscon|gsos-console|GSOS Console Driver:\
 	:co#80:li#24:\
 	:eo:ms:mi:NP:am:bs:bw:\
+# clear
 	:cl=^L:\
 	:cd=^K:\
 	:cb=^C:\
+	:ce=^]:\
+# beep
+	:bl=^G:\
+# cursor motion
+	:cm=%r^^%+ %+ :\
+	:ho=^Y:\
+	:ll=^^ 8:\
 	:cr=^M:\
 	:cv=^F%+ :\
-	:bl=^G:\
 # cursor movement - up, down, left, right.
 	:up=^_:\
 	:do=^J:\
 	:le=^H:\
+	:bc=^H:\
 	:nd=^\:\
-	:ho=^Y:\
 	:nl=^J:\
-	:sr=^V:\
-	:sf=^W:\
-	:ae=^N:\
-	:cm=^^%r%+ %+ :\
-	:ce=^]:\
-	:eA=^O^[:\
-	:i3=^L:\
-	:is=^L^N:\
 # arrow keys
 	:kd=^J:\
 	:kl=^H:\
 	:kr=^U:\
 	:ku=^K:\
-	:ll=^^ 8:\
+# inverse/normal
 	:mb=^O:\
 	:md=^O:\
 	:me=^N:\
@@ -41,13 +40,18 @@ gsoscon|gsos-console|GSOS Console Driver:\
 	:so=^O:\
 	:ue=^N:\
 	:us=^O:\
+# alternate character set (mouse text).
+	:eA=^O^[:\
 	:as=^O^[:\
-	:bc=^H:\
-	:r1=^N:\
-	:r2=^N:\
-	:r3=^N:\
+	:ae=^N:\
+# initialize / reset. 80-column, Normal text, disable mousetext, 80x24 textport, consLF/DLE off, clear. 
+	:is=^R^N^X^B  o7^U\015^L:\
+# ---- scrolling ----
+# set scroll region
+	:cs=^B %+ o%+ :\
+# scroll up 1 line
 	:sf=^J:\
+# scroll down 1 line
 	:sr=^_:\
-	:i1=^N:\
 # backspace key
 	:kb=^?:
