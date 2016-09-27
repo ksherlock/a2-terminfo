@@ -1,0 +1,6 @@
+appleIIgs|appleIIe|appleIIc|Apple 80 column firmware interface:\
+	:am:bw:eo:ms:\
+	:co#80:it#8:li#24:\
+	:bl=^G:cd=^K:ce=^]:cl=^L:cm=\036%r%+ %+ :cr=^M:do=^J:ho=^Y:\
+	:kC=^X:kb=\177:kd=^J:kl=^H:kr=^U:ku=^K:le=^H:nd=^\:nw=^M^W:\
+	:se=^N:sf=^W:so=^O:sr=^V:ta=^I:up=^_:
