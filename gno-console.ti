@@ -41,12 +41,8 @@ gno|gnocon|gno-console|GNO Console Driver:\
 	:al=^Q:\
 	:dl=^R:\
 #initialize / reset
-	:i1=^N:\
-	:i2=^L:\
-	:is=\001\005\030\016:\
-	:r1=^N:\
-	:r2=^N:\
-	r3=^N:\
+	:rs=^N^X^E^B^C[ o 7^L:\
+	:is=^N^X^E^B:\
 #scrolling
 	:sf=^W:\
 	:sr=^V:\
