@@ -51,7 +51,7 @@ gno|gnocon|gno-console|GNO Console Driver:\
 	:sf=^W:\
 	:sr=^V:\
 # cursor visibility
-	:vs=^E:\
+	:ve=^E:\
 	:vi=^F:\
 # backspace key
 	:kb=\177:
