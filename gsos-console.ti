@@ -52,4 +52,4 @@ gsoscon|gsos-console|GSOS Console Driver:\
 # scroll down 1 line
 	:sr=^_:\
 # backspace key
-	:kb=^?:
+	:kb=\177:
