@@ -1,9 +1,59 @@
 gno|gnocon|gno-console|GNO Console Driver:\
-	:NP:am:bw:eo:mi:ms:xn:\
 	:co#80:it#8:li#24:\
-	:al=^Q:bl=^G:cd=^K:ce=^]:cl=^L:cm=\036%r%+ %+ :cr=^M:\
-	:cs=\003[ o%+ %+ :dl=^R:do=^J:ho=^Y:i1=^N:i2=^L:\
-	:is=\001\005\030\016:kb=\177:kd=^J:kl=^H:kr=^U:ku=^K:le=^H:\
-	:ll=^^ 8:mb=^O:md=^O:me=^N:mh=^O:mr=^O:nd=^U:nw=^M^W:r1=^N:\
-	:r2=^N:r3=^N:se=^N:sf=^W:so=^O:sr=^V:ta=^I:ue=^N:up=^_:us=^O:\
-	:vi=^F:
+	:NP:am:bw:eo:mi:ms:xn:bs:\
+	:ta=^I:\
+#beep
+	:bl=^G:\
+#clear
+	:cl=^L:\
+	:cd=^K:\
+	:ce=^]:\
+#cursor motion
+	:cm=\036%r%+ %+ :\
+	:ho=^Y:\
+	:ll=^^ 8:\
+	:cr=^M:\
+# cursor movement - up, down, left, right.
+	:up=^_:\
+	:do=^J:\
+	:le=^H:\
+	:nd=^U:\
+# arrow keys
+	:kd=^J:\
+	:kl=^H:\
+	:kr=^U:\
+	:ku=^K:\
+#inverse/normal
+	:mb=^O:\
+	:md=^O:\
+	:me=^N:\
+	:mh=^O:\
+	:mr=^O:\
+	:so=^O:\
+	:se=^N:\
+	:us=^O:\
+	:ue=^N:\
+# alternate character set (mouse text).
+	:eA=^O^[:\
+	:as=^O^[:\
+	:ae=^N^X:\
+#scroll region
+	:cs=\003[ o%+ %+ :\
+#insert/delete line
+	:al=^Q:\
+	:dl=^R:\
+#initialize / reset
+	:i1=^N:\
+	:i2=^L:\
+	:is=\001\005\030\016:\
+	:r1=^N:\
+	:r2=^N:\
+	r3=^N:\
+#scrolling
+	:sf=^W:\
+	:sr=^V:\
+# cursor visibility
+	:vs=^E:\
+	:vi=^F:\
+# backspace key
+	:kb=\177:
