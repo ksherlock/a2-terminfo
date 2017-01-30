@@ -5,7 +5,9 @@ pse|proterm-special|ProTerm Special Emulation:\
 # enter/send key (rare?)
 	:@8=^M:\
 # alternate character map
-	:ac=``aaffggiijjkkllmmnnooppqqrrssttuuvvwwxxyyzz{{||}}~~:\
+#	:ac=``aaffggiijjkkllmmnnooppqqrrssttuuvvwwxxyyzz{{||}}~~:\
+# from csa2:
+#	acsc=+U\,H.J0NIC-K`[aVhWjMmTn]oLqSsIt_uZvIwLx|~@,
 # beep
 	:bl=^G:\
 # clear
