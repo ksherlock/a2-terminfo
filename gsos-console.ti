@@ -44,7 +44,7 @@ gsoscon|gsos-console|GSOS Console Driver:\
 	:as=^O^[:\
 	:ae=^N^X:\
 # initialize / reset. 80-column, Normal text, disable mousetext, 80x24 textport, consLF/DLE off, clear. 
-	:rs=^N^X:\
+	:rs=^R^N^X^B  o7^U\015^L:\
 	:is=^R^N^X^B  o7^U\015^L:\
 # ---- scrolling ----
 # scroll up 1 line
