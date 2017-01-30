@@ -37,8 +37,6 @@ gno|gnocon|gno-console|GNO Console Driver:\
 	:eA=^O^[:\
 	:as=^O^[:\
 	:ae=^N^X:\
-#scroll region
-	:cs=\003[ o%+ %+ :\
 #insert/delete line
 	:al=^Q:\
 	:dl=^R:\
