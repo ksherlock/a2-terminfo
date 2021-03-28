@@ -11,7 +11,7 @@ gno|gnocon|gno-console|GNO Console Driver:\
 #cursor motion
 	:cm=\036%r%+ %+ :\
 	:ho=^Y:\
-	:ll=^^ 8:\
+	:ll=^^ 7:\
 	:cr=^M:\
 # cursor movement - up, down, left, right.
 	:up=^_:\
@@ -38,13 +38,13 @@ gno|gnocon|gno-console|GNO Console Driver:\
 	:as=^O^[:\
 	:ae=^N^X:\
 #scroll region
-	:cs=\003[ o%+ %+ :\
+	:cs=^C[ o%+ %+ :\
 #insert/delete line
 	:al=^Q:\
 	:dl=^R:\
 #initialize / reset
-	:rs=^N^X^E^B^C[ o 7^L:\
-	:is=^N^X^E^B:\
+	:r1=^N^X^E^B^C[ o 7^L:\
+	:i1=^N^X^E^B:\
 #scrolling
 	:sf=^W:\
 	:sr=^V:\

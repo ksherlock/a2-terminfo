@@ -44,7 +44,7 @@ pse|proterm-special|ProTerm Special Emulation:\
 	:ei=:\
 	:im=:\
 #initialize / reset
-	:is=^N:\
+	:i1=^N:\
 	:r1=^N:\
 # repeat character %1 %2 times
 	:rp=\022%.%.:\

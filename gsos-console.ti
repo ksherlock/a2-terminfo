@@ -14,7 +14,7 @@ gsoscon|gsos-console|GSOS Console Driver:\
 # cursor motion
 	:cm=%r^^%+ %+ :\
 	:ho=^Y:\
-	:ll=^^ 8:\
+	:ll=^^ 7:\
 	:cr=^M:\
 	:cv=^F%+ :\
 # cursor movement - up, down, left, right.
@@ -44,8 +44,8 @@ gsoscon|gsos-console|GSOS Console Driver:\
 	:as=^O^[:\
 	:ae=^N^X:\
 # initialize / reset. 80-column, Normal text, disable mousetext, 80x24 textport, consLF/DLE off, clear. 
-	:rs=^R^N^X^B  o7^U\015^L:\
-	:is=^R^N^X^B  o7^U\015^L:\
+	:r1=^R^N^X^B  o7^U\015^L:\
+	:i1=^R^N^X^B  o7^U\015^L:\
 # ---- scrolling ----
 # scroll up 1 line
 	:sf=^J:\
