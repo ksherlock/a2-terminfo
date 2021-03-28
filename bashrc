@@ -40,3 +40,14 @@ if [ _$TERM = "_appleIIe" ]; then
   bind Control-K:previous-history
   bind Control-X:unix-line-discard
 fi
+
+if [ _$TERM = "_appleIII" ]; then
+  stty kill ^X # default line kill char is ^U (right arrow)
+  stty oxtabs cs7 # expand tabs to spaces, 7-bit text.
+
+  bind Control-H:backward-char
+  bind Control-U:forward-char
+  bind Control-J:next-history
+  bind Control-K:previous-history
+  bind Control-X:unix-line-discard
+fi

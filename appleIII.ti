@@ -1,0 +1,57 @@
+appleIII|Apple III Console Driver:\
+	:co#80:li#24:\
+	:NP:am:bw:eo:mi:ms:bs:\
+#beep
+	:bl=^G:\
+#clear
+	:cl=^\:\
+	:cd=^]:\
+	:ce=^_:\
+#cursor motion
+	:cm=%r^Z%.%.:\
+	:ho=^L:\
+	:ll=^Z\000\030:\
+	:cr=^M:\
+# cursor movement - up, down, left, right.
+	:up=^K:\
+	:do=^J:\
+	:le=^H:\
+	:nd=^I:\
+# arrow keys
+	:kl=^H:\
+	:kr=^U:\
+	:kd=^J:\
+	:ku=^K:\
+#inverse/normal
+	:mb=^R:\
+	:md=^R:\
+	:me=^Q:\
+	:mh=^R:\
+	:mr=^R:\
+	:so=^R:\
+	:se=^Q:\
+	:us=^R:\
+	:ue=^Q:\
+#initialize / reset
+# normal text, cursor visible, reset viewport, 80-column, cursor control, clear
+	:r1=^Q^E^A^P\002^U=^\:\
+	:i1=^Q^E^A^P\002^U=^\:\
+# cursor visibility
+	:ve=^E:\
+	:vi=^F:\
+# backspace key
+	:kb=\177:
+#
+# \0  will  produce  \200,  which  does  not terminate a string but
+# behaves as a null character on most terminals, providing  CS7  is
+# specified.  See stty(1).
+#
+# The  reason for this quirk is to maintain binary compatibility of
+# the compiled terminfo files with other implementations, e.g., the
+# SVr4  systems,  which document this.  Compiled terminfo files use
+# null-terminated strings, with no lengths.  Modifying  this  would
+# require  a  new  binary  format,  which would not work with other
+# implementations.
+#
+#
+# ^^^ this interferes with cursor positioning for 0.
