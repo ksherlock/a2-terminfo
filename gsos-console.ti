@@ -40,7 +40,6 @@ gsoscon|gsos-console|GSOS Console Driver:\
 	:ue=^N:\
 	:us=^O:\
 # alternate character set (mouse text).
-	:eA=^O^[:\
 	:as=^O^[:\
 	:ae=^N^X:\
 # initialize / reset. 80-column, Normal text, disable mousetext, 80x24 textport, consLF/DLE off, clear. 

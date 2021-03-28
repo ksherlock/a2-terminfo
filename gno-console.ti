@@ -34,7 +34,6 @@ gno|gnocon|gno-console|GNO Console Driver:\
 	:us=^O:\
 	:ue=^N:\
 # alternate character set (mouse text).
-	:eA=^O^[:\
 	:as=^O^[:\
 	:ae=^N^X:\
 #scroll region
